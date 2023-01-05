@@ -14,7 +14,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     "strict": false, // FIXME: make work in strict mode
     "esModuleInterop": true,
     "noImplicitAny": false, // ~template
@@ -22,9 +22,7 @@
     "noUnusedParameters": true // ~original
   },
   "include": [
-    "src/"
+    "."
   ],
-  "exclude": [
-    "**/*.spec.ts"
-  ]
+  "exclude": []
 }
