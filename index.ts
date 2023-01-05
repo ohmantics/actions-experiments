@@ -1,0 +1,3 @@
+export = (homebridge) => {
+  homebridge;
+};
