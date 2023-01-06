@@ -41,5 +41,8 @@
   },
   "keywords": [
     "xyzzy"
-  ]
+  ],
+  "release": {
+	"branches": [ "release" ]
+  }
 }
