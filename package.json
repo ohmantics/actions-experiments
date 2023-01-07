@@ -50,7 +50,7 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       ["@semantic-release/exec", {
-        "prepareCmd": "git checkout -b ${branch.name}-${nextRelease.version} && git push --all -u"
+        "prepareCmd": "git ls-files -m -o"
       }],
       ["@semantic-release/git", {
         "assets": [ "package.json", "package-lock.json" ],
