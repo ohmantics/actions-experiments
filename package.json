@@ -1,6 +1,6 @@
 {
   "name": "@ohmantics/actions-experiments",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "description": "Playing with GitHub Actions",
   "main": "dist/index.js",
   "author": "Alex Rosenberg",
