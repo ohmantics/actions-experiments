@@ -1,6 +1,6 @@
 {
   "name": "@ohmantics/actions-experiments",
-  "version": "0.0.0-development",
+  "version": "3.4.2",
   "description": "Playing with GitHub Actions",
   "main": "dist/index.js",
   "author": "Alex Rosenberg",
@@ -45,7 +45,9 @@
     "xyzzy"
   ],
   "release": {
-    "branches": [ "release*" ],
+    "branches": [
+      "release*"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
@@ -62,6 +64,5 @@
 	  ["@semantic-release/exec", {
 		  "publishCmd": "git checkout -b ${branch.name}-${nextRelease.version} && git pull release && git push"
 	  }]
-    ]
   }
 }
